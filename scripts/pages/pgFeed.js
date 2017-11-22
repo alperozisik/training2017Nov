@@ -43,6 +43,7 @@ function onLoad(superOnLoad) {
   superOnLoad();
   const page = this;
   page.lvFeed.refreshEnabled = true;
+  page.alper = "alper";
 
   page.lvFeed.onRowCreate = function() {
     var lviFeed = new LviFeed({});
