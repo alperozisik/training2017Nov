@@ -1,0 +1,63 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "4a13-9f55-b4b0-cb06",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {
+				"flexProps": {
+					"alignItems": "CENTER",
+					"flexDirection": "COLUMN",
+					"justifyContent": "CENTER"
+				}
+			},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "pgTraining",
+				"children": [
+					"6d63-a734-6e0a-d42a",
+					"bbd7-c0d2-0bd1-dda0"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "6d63-a734-6e0a-d42a",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "4a13-9f55-b4b0-cb06",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "bbd7-c0d2-0bd1-dda0",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "Training"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "Training",
+				"children": [],
+				"parent": "4a13-9f55-b4b0-cb06",
+				"isRemovable": false
+			}
+		}
+	]
+}

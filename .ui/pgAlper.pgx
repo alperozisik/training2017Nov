@@ -1,0 +1,111 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "ff06-c516-16d2-96de",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "pgAlper",
+				"children": [
+					"b579-dcb4-8d58-91ae",
+					"8f7e-e5da-aac1-dcd4",
+					"d78b-c4d5-0997-659f",
+					"a248-19ec-6bc6-8d9b"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "b579-dcb4-8d58-91ae",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {
+				"color": "rgba( 65, 117, 5, 1 )",
+				"style": "LIGHTCONTENT"
+			},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "ff06-c516-16d2-96de",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "8f7e-e5da-aac1-dcd4",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "newPage001",
+				"titleColor": "rgba( 255, 255, 255, 1 )",
+				"backgroundColor": "rgba( 155, 155, 155, 1 )"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "newPage001",
+				"children": [],
+				"parent": "ff06-c516-16d2-96de",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "d78b-c4d5-0997-659f",
+			"hiddenComponent": false,
+			"source": {
+				"page": "__library__",
+				"type": "flexLayout2",
+				"id": "73a4-d22e-b41c-c2fb"
+			},
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0,
+				"width": 343.67816091954023,
+				"height": 172.41379310344828,
+				"flex": {
+					"positionType": 0
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"name": "flexLayout2",
+				"children": [],
+				"parent": "ff06-c516-16d2-96de"
+			}
+		},
+		{
+			"type": "ImageView",
+			"id": "a248-19ec-6bc6-8d9b",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"image": "smartface.png"
+			},
+			"className": ".imageView",
+			"props": {
+				"name": "imageView1",
+				"children": [],
+				"parent": "ff06-c516-16d2-96de"
+			}
+		}
+	]
+}

@@ -1,0 +1,133 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "ec04-e18d-35f1-5f5a",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.5.2",
+			"props": {
+				"name": "pgFeed",
+				"children": [
+					"e41b-38b0-9f1f-b84d",
+					"7ffc-821d-413e-a12c",
+					"d843-178f-686d-6982",
+					"ead1-bf67-0cc8-07ef"
+				],
+				"parent": null,
+				"orientation": "PORTRAIT"
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "e41b-38b0-9f1f-b84d",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"name": "statusBar",
+				"children": [],
+				"parent": "ec04-e18d-35f1-5f5a",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "7ffc-821d-413e-a12c",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "Feed Data"
+			},
+			"className": ".headerBar",
+			"props": {
+				"name": "headerBar",
+				"title": "Feed Data",
+				"children": [],
+				"parent": "ec04-e18d-35f1-5f5a",
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "ListView",
+			"id": "d843-178f-686d-6982",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"usePageVariable": true,
+				"itemCount": 0,
+				"visible": true,
+				"rowHeight": 150,
+				"flexProps": {
+					"flexGrow": 1
+				}
+			},
+			"className": ".listView",
+			"props": {
+				"name": "lvFeed",
+				"usePageVariable": true,
+				"children": [],
+				"parent": "ec04-e18d-35f1-5f5a"
+			}
+		},
+		{
+			"type": "FlexLayout",
+			"id": "ead1-bf67-0cc8-07ef",
+			"hiddenComponent": true,
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"left": 0,
+				"top": 0,
+				"bottom": 0,
+				"right": 0,
+				"usePageVariable": true,
+				"flexProps": {
+					"positionType": "ABSOLUTE",
+					"alignItems": "CENTER",
+					"justifyContent": "CENTER"
+				}
+			},
+			"className": ".flexLayout",
+			"props": {
+				"name": "flWait",
+				"usePageVariable": true,
+				"children": [
+					"0d0e-f4f8-6572-d6cd"
+				],
+				"parent": "ec04-e18d-35f1-5f5a"
+			}
+		},
+		{
+			"type": "ActivityIndicator",
+			"id": "0d0e-f4f8-6572-d6cd",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"borderColor": "rgba( 255, 255, 255, 1 )",
+				"backgroundColor": "rgba( 255, 255, 255, 0 )",
+				"color": "rgba( 144, 19, 254, 1 )"
+			},
+			"className": ".activityIndicator",
+			"props": {
+				"name": "activityIndicator1",
+				"children": [],
+				"parent": "ead1-bf67-0cc8-07ef"
+			}
+		}
+	]
+}
